@@ -1,12 +1,12 @@
 import os 
 
-    caminho_atual = os.getcwd()
-    arquivos = os.listdir(caminho_atual)
+caminho_atual = os.getcwd()
+arquivos = os.listdir(caminho_atual)
 
     pastas = {
         'imagens': ['.jpg', '.png', '.jpeg', '.gif'],
         'videos': ['.mp4', '.mov', '.avi', '.mkv'],
-        'documentos': ['.pdf', '.docx', '.txt', '.xlsx'],
+        'documentos': ['.pdf', '.docx', '.xlsx'],
         'texto': ['.txt', '.md']
     }
 
