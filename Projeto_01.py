@@ -1,6 +1,5 @@
 import os 
 
-def organizador_arquivos():
     caminho_atual = os.getcwd()
     arquivos = os.listdir(caminho_atual)
 
@@ -25,6 +24,5 @@ def organizador_arquivos():
                     os.rename(arquivo, os.path.join(pasta, arquivo))
                     break  # Para evitar mover o mesmo arquivo para múltiplas pastas
 
-organizador_arquivos()
 
 print("Arquivos organizados com sucesso!")
